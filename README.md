@@ -61,11 +61,15 @@ _Measures: A dedicated folder-table for DAX organization, housing optimized calc
 
 Mateus - Business & Data Analyst
 
+**[LinkedIn Profile](www.linkedin.com/in/mateus-amaral-895392293)**
+
 Focus: Data Engineering, BI, and AI Process Automation.
 
 Education: Bachelor of Business Administration (NFQ Level 8 equivalent).
 
 Status: Ready to relocate to Ireland (Dublin/Cork/Galway/Limerick) under the Critical Skills Employment Permit (CSEP).
+
+
 
 
 
