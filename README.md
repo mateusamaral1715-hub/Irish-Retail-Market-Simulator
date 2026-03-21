@@ -1,11 +1,13 @@
 🇮🇪 Irish Retail Market Simulator: End-to-End Data & AI Pipeline
 
 📌 Executive Summary
+
 This project is a high-fidelity simulation of the Irish Retail Landscape, specifically focusing on the hubs of Dublin, Cork, and Galway.
 
 Faced with the lack of granular, public regional data, I engineered a Synthetic Data Engine using Python to generate over 50,000 transaction records. This pipeline transitions from raw data generation to a highly optimized Star Schema architecture, culminating in an executive-level Power BI Dashboard designed for ROI-driven decision-making.
 
 🚀 Business Value & Impact
+
 40% Reduction in Manual Data Prep: Automation of the ETL process using Python scripts.
 
 Regional Granularity: Simulated market penetration and customer behavior across Ireland’s key economic counties.
@@ -13,6 +15,7 @@ Regional Granularity: Simulated market penetration and customer behavior across 
 Executive UX: Implemented the Z-Pattern design and Off-Black typography to minimize cognitive load for stakeholders.
 
 🛠️ The Tech Stack
+
 1. Data Engineering (Python/Pandas/NumPy)
 Synthetic Engine: Built a custom logic to simulate realistic sales trends, seasonality, and customer demographics.
 <p align="center">
@@ -41,15 +44,21 @@ Drill-through Actions: Allows stakeholders to navigate from high-level KPIs to g
    * 👉 **[Click Here to Open the Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDJkYjJkYmYtMGY2ZS00YzZhLWEwMzAtMmRlN2Y5YzY4MThhIiwidCI6IjUxYmEzOWRiLWRkYjAtNDQ3YS04MTU0LTgzNGEwYTZmZDJlOCJ9)**
 
 🏗️ Data Architecture (The "Star Schema")
-The model was designed for performance and scalability, following industry best practices:
 
-Fact_Sales: ~50,000 rows of transactional data.
+The model follows a high-performance Star Schema architecture, ensuring efficient filtering and scalability:
 
-Dim_Geography: Mapped to Ireland's regional NUTS-3 classification.
+Fact_Sales: Central table containing ~50,000 transactional records, linked to all dimensions via surrogate and natural keys.
 
-Dim_Product: Categorized by retail sectors (Clothing, Groceries, Electronics).
+Dim_Customers: Detailed customer data (Name, ID, and Eircode), allowing for granular demographic analysis.
+
+Dim_Products: Categorized retail hierarchy (Clothing, Groceries, Electronics, etc.) to monitor category performance.
+
+Dim_Date: A dedicated calendar table enabling advanced Time Intelligence (YoY, MoM, and YTD metrics).
+
+_Measures: A dedicated folder-table for DAX organization, housing optimized calculations for Revenue, AOV, and Growth.
 
 👨‍💻 About the Author
+
 Mateus - Business & Data Analyst
 
 Focus: Data Engineering, BI, and AI Process Automation.
