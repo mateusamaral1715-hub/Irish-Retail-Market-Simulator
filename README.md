@@ -61,7 +61,7 @@ _Measures: A dedicated folder-table for DAX organization, housing optimized calc
 
 Mateus - Business & Data Analyst
 
-**[LinkedIn Profile](www.linkedin.com/in/mateus-amaral-895392293)**
+**[LinkedIn Profile](https://www.linkedin.com/in/mateus-amaral-895392293/)**
 
 Focus: Data Engineering, BI, and AI Process Automation.
 
