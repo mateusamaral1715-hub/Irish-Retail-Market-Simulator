@@ -71,7 +71,7 @@ The model follows a high-performance architecture, ensuring efficient filtering 
 * **Executive Communication:** Translating raw transaction data into clear, strategic dashboards.
 
 ---
-**Engineered by [Mateus Amaral](https://www.linkedin.com/in/mateus-amaral-895392293)** • *Business Partner Analyst | FinOps & AI Specialist | Relocating to Dublin 🇮🇪*
+**Engineered by [Mateus Amaral](https://www.linkedin.com/in/mateus-amaral-895392293)** • *Business Analyst | FinOps & AI Specialist | Relocating to Dublin 🇮🇪*
 
 
 
