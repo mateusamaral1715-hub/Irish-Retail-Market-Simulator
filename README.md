@@ -1,43 +1,43 @@
-# 🇮🇪 Irish Retail Market Simulator: End-to-End Data & AI Pipeline
+# 🇮🇪 Irish Retail Market Simulator: Scalable Data Architecture & Revenue Forecasting
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![Power BI](https://img.shields.io/badge/Power_BI-Advanced_DAX-yellow.svg)](https://powerbi.microsoft.com/)
-[![Retail Analytics](https://img.shields.io/badge/Industry-Retail-green.svg)]()
+[![Power BI](https://img.shields.io/badge/Power_BI-Executive_Reporting-yellow.svg)](https://powerbi.microsoft.com/)
+[![Market Intelligence](https://img.shields.io/badge/Focus-Data_Scalability_&_Forecasting-green.svg)]()
 
 ## 📌 Executive Summary
 
-This project is a high-fidelity simulation of the **Irish Retail Landscape**, specifically focusing on the economic hubs of **Dublin, Cork, and Galway**. 
+This project serves as a high-fidelity data simulation of the **Irish Retail Landscape** (focusing on Dublin, Cork, and Galway), engineered to demonstrate how scalable data architectures drive **CFO-level reasoning** and regional revenue forecasting.
 
-Faced with the lack of granular, public regional data, I engineered a **Synthetic Data Engine** using Python to generate over 50,000 transaction records. This pipeline transitions from raw data generation to a highly optimized **Star Schema** architecture, culminating in an executive-level Power BI Dashboard designed for ROI-driven decision-making.
+To stress-test enterprise BI environments and replicate complex market dynamics, I engineered a **Synthetic Data Engine** using Python to generate over 50,000 transaction records. This pipeline transitions from high-volume data generation to a highly optimized **Star Schema** architecture—proving the ability to build the pristine data foundations required before deploying Advanced Analytics or Agentic AI models.
 
 ---
 
-## 🚀 Business Value & Impact
+## 🚀 Strategic Business Impact
 
-* **40% Reduction in Manual Data Prep:** Automation of the ETL process using Python scripts.
-* **Regional Granularity:** Simulated market penetration and customer behavior across Ireland’s key economic counties.
-* **Executive UX:** Implemented the **Z-Pattern design** and **Off-Black typography** to minimize cognitive load for stakeholders.
+* **Data Scalability for AI & Analytics:** Automated the ETL process via Python, proving the architecture can ingest and process 50,000+ records seamlessly without performance degradation.
+* **Regional Revenue Observability:** Mapped market penetration, Unit Economics, and customer behavior across Ireland’s key economic counties, integrating local logic like **Eircodes**.
+* **Executive Decision-Making:** Implemented **Z-Pattern design** and **Off-Black typography** to minimize cognitive load, ensuring stakeholders can instantly digest complex YTD (Year-to-Date) growth metrics and make ROI-driven decisions.
 
 ---
 
 ## 🛠️ The Tech Stack
 
 ### 1. Data Engineering (Python/Pandas/NumPy)
-* **Synthetic Engine:** Built a custom logic to simulate realistic sales trends, seasonality, and customer demographics.
+* **Synthetic Market Engine:** Built custom statistical logic to simulate realistic sales trends, seasonality, and demographic shifts, providing a robust dataset for predictive modeling.
 
 <p align="center">
   <img height="400" alt="Python Script Snippet" src="https://github.com/user-attachments/assets/42cd22a1-548b-4043-8816-33206b045925" />
 </p>
 
-* **ETL Pipeline:** Automated cleaning and transformation of raw CSVs into structured relational tables.
+* **ETL Pipeline:** Automated the cleaning and transformation of raw CSVs into structured relational tables ready for enterprise ingestion.
 
-### 2. Data Modeling & Star Schema (SQL / Power BI)
-* **Star Schema Optimization:** Developed a robust 1:N relationship model between Fact tables and Dimensions.
-* **Advanced DAX:** Created complex measures for **YTD (Year-to-Date)**, **Growth WoW/MoM**, and **AOV (Average Order Value)**.
+### 2. FinOps-Ready Data Modeling (SQL / Power BI)
+* **Star Schema Optimization:** Clean, relational data is the prerequisite for accurate financial reporting. I developed a strict 1:N relationship model between Fact and Dimension tables.
+* **Advanced DAX & Forecasting:** Created complex measures for **YTD**, **Growth WoW/MoM**, and **AOV (Average Order Value)**—the core metrics used by finance teams to track revenue health.
 
 ### 3. Advanced UI/UX Features
-* **Report-Page Tooltips:** Interactive hover-over insights for individual Irish counties (Dublin, Cork, Galway).
-* **Drill-through Actions:** Allows stakeholders to navigate from high-level KPIs to granular transactional data seamlessly.
+* **Report-Page Tooltips:** Interactive hover-over insights for instant regional ROI checks across Irish counties.
+* **Drill-through Actions:** Allows executives to navigate from high-level KPIs directly into granular transactional data, bridging the gap between strategy and operations.
 
 ---
 
@@ -56,21 +56,22 @@ Faced with the lack of granular, public regional data, I engineered a **Syntheti
 
 The model follows a high-performance architecture, ensuring efficient filtering and scalability:
 
-* **Fact_Sales:** Central table containing ~50,000 transactional records, linked via surrogate keys.
-* **Dim_Customers:** Detailed customer demographics (Name, ID, and **Eircode**) for regional analysis.
-* **Dim_Products:** Categorized retail hierarchy (Clothing, Groceries, Electronics, etc.).
-* **Dim_Date:** A dedicated calendar table supporting advanced **Time Intelligence** metrics.
+* **Fact_Sales:** The central ledger containing ~50,000 transactional records, linked via surrogate keys.
+* **Dim_Customers:** Detailed customer demographics (including **Eircode**) for geographic revenue mapping.
+* **Dim_Products:** Categorized retail hierarchy utilized for product-line profitability analysis.
+* **Dim_Date:** A dedicated calendar table supporting advanced **Time Intelligence** and financial forecasting.
 * **_Measures:** A dedicated folder-table for DAX organization, housing optimized business calculations.
 
 ---
 
-## 👨‍💻 About the Author
-**Mateus - Business & Data Analyst**
-* **[LinkedIn Profile](https://www.linkedin.com/in/mateus-amaral-895392293/)**
-* **Focus:** Data Engineering, BI, and AI Process Automation.
-* **Education:** Bachelor of Business Administration (**NFQ Level 8** equivalent).
-* **Status:** Ready to relocate to Ireland (Dublin/Cork/Galway/Limerick) under the **Critical Skills Employment Permit (CSEP)**.
+## 🇮🇪 Ireland Critical Skills (CSEP) Alignment
 
+* **Market Intelligence:** Deep understanding of Irish regional demographics and purchasing power.
+* **Data Scalability:** Proven ability to engineer and manage high-volume datasets using Python.
+* **Executive Communication:** Translating raw transaction data into clear, strategic dashboards.
+
+---
+**Engineered by [Mateus Amaral](https://www.linkedin.com/in/mateus-amaral-895392293)** • *Business Partner Analyst | FinOps & AI Specialist | Relocating to Dublin 🇮🇪*
 
 
 
